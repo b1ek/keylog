@@ -13,6 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Uncathegorized">
+      <UniqueIdentifier>{6e38ab6f-8e16-4ae9-98eb-9bc48a08cebd}</UniqueIdentifier>
+      <Extensions>*.*</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="keylog.cpp">
@@ -23,5 +27,10 @@
     <ClInclude Include="argparse.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="README.MD">
+      <Filter>Uncathegorized</Filter>
+    </Xsd>
   </ItemGroup>
 </Project>
